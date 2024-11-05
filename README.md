@@ -1,6 +1,4 @@
-Here’s a detailed, attractive, and engaging README for your Static Code Analyzer project on GitHub:
 
----
 
 # Static Code Analyzer 🚀🔍
 
