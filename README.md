@@ -1,7 +1,6 @@
 
 
 # Static Code Analyzer 🚀🔍  
-***Still Under Development (I'm not a professional developer)***
 
 **A powerful, open-source static code analysis tool for Python, Java, and JavaScript!**
 
