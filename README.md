@@ -12,7 +12,7 @@ This project is currently under development, but you are encouraged to **try it 
 
 ## 📜 Table of Contents
 
-- [Features](#Features)
+- [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
