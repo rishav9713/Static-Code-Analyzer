@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Code Analysis Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        .container { margin: 20px; }
+        h1 { color: #333; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        table, th, td { border: 1px solid #ddd; padding: 8px; }
+        th { background-color: #f2f2f2; }
+        .high { color: red; }
+        .medium { color: orange; }
+        .low { color: green; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Static Code Analysis Report</h1>
+        <p>Total Vulnerabilities: 12</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>File</th>
+                    <th>Line</th>
+                    <th>Vulnerability</th>
+                    <th>CWE ID</th>
+                    <th>Severity</th>
+                    <th>Description</th>
+                    <th>Remediation</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td>extracted_files\textcode.py</td>
+                    <td>18</td>
+                    <td>Input Validation Issues</td>
+                    <td>CWE-20</td>
+                    <td class="high">High</td>
+                    <td>Improper Input Validation</td>
+                    <td>Always validate and sanitize inputs from untrusted sources.</td>
+                </tr>
+                
+                <tr>
+                    <td>extracted_files\textcode.py</td>
+                    <td>23</td>
+                    <td>Input Validation Issues</td>
+                    <td>CWE-20</td>
+                    <td class="high">High</td>
+                    <td>Improper Input Validation</td>
+                    <td>Always validate and sanitize inputs from untrusted sources.</td>
+                </tr>
+                
+                <tr>
+                    <td>extracted_files\textcode.py</td>
+                    <td>24</td>
+                    <td>Insecure eval() function</td>
+                    <td>CWE-94</td>
+                    <td class="high">High</td>
+                    <td>Improper Control of Generation of Code ('Code Injection')</td>
+                    <td>Avoid using eval() as it can execute arbitrary code.</td>
+                </tr>
+                
+                <tr>
+                    <td>extracted_files\textcode.py</td>
+                    <td>30</td>
+                    <td>Input Validation Issues</td>
+                    <td>CWE-20</td>
+                    <td class="high">High</td>
+                    <td>Improper Input Validation</td>
+                    <td>Always validate and sanitize inputs from untrusted sources.</td>
+                </tr>
+                
+                <tr>
+                    <td>extracted_files\textcode.py</td>
+                    <td>19</td>
+                    <td>Path Traversal</td>
+                    <td>CWE-22</td>
+                    <td class="high">High</td>
+                    <td>Improperly restricting access to files can allow an attacker to access sensitive files.</td>
+                    <td>Validate and sanitize user input, and restrict file access appropriately.</td>
+                </tr>
+                
+                <tr>
+                    <td>extracted_files\Source_code\BSC\BSCautomated.py</td>
+                    <td>48</td>
+                    <td>Insecure eval() function</td>
+                    <td>CWE-94</td>
+                    <td class="high">High</td>
+                    <td>Improper Control of Generation of Code ('Code Injection')</td>
+                    <td>Avoid using eval() as it can execute arbitrary code.</td>
+                </tr>
+                
+                <tr>
+                    <td>extracted_files\Source_code\BSC\Logger.py</td>
+                    <td>26</td>
+                    <td>Path Traversal</td>
+                    <td>CWE-22</td>
+                    <td class="high">High</td>
+                    <td>Improperly restricting access to files can allow an attacker to access sensitive files.</td>
+                    <td>Validate and sanitize user input, and restrict file access appropriately.</td>
+                </tr>
+                
+                <tr>
+                    <td>extracted_files\Source_code\Category Mismatch\mismatch.py</td>
+                    <td>213</td>
+                    <td>Path Traversal</td>
+                    <td>CWE-22</td>
+                    <td class="high">High</td>
+                    <td>Improperly restricting access to files can allow an attacker to access sensitive files.</td>
+                    <td>Validate and sanitize user input, and restrict file access appropriately.</td>
+                </tr>
+                
+                <tr>
+                    <td>extracted_files\Source_code\Category Mismatch\mismatch.py</td>
+                    <td>222</td>
+                    <td>Path Traversal</td>
+                    <td>CWE-22</td>
+                    <td class="high">High</td>
+                    <td>Improperly restricting access to files can allow an attacker to access sensitive files.</td>
+                    <td>Validate and sanitize user input, and restrict file access appropriately.</td>
+                </tr>
+                
+                <tr>
+                    <td>extracted_files\Source_code\Category Mismatch\mismatch.py</td>
+                    <td>274</td>
+                    <td>Path Traversal</td>
+                    <td>CWE-22</td>
+                    <td class="high">High</td>
+                    <td>Improperly restricting access to files can allow an attacker to access sensitive files.</td>
+                    <td>Validate and sanitize user input, and restrict file access appropriately.</td>
+                </tr>
+                
+                <tr>
+                    <td>extracted_files\Source_code\Demand Forecasting\script\evalution.py</td>
+                    <td>192</td>
+                    <td>Path Traversal</td>
+                    <td>CWE-22</td>
+                    <td class="high">High</td>
+                    <td>Improperly restricting access to files can allow an attacker to access sensitive files.</td>
+                    <td>Validate and sanitize user input, and restrict file access appropriately.</td>
+                </tr>
+                
+                <tr>
+                    <td>extracted_files\Source_code\Demand Forecasting\script\evalution.py</td>
+                    <td>199</td>
+                    <td>Path Traversal</td>
+                    <td>CWE-22</td>
+                    <td class="high">High</td>
+                    <td>Improperly restricting access to files can allow an attacker to access sensitive files.</td>
+                    <td>Validate and sanitize user input, and restrict file access appropriately.</td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
